@@ -1,0 +1,1 @@
+C:\Users\amlange\Documents\GitHub\bandandazure\MSBandAzure\MSBandAzure.csproj;x86

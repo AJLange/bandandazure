@@ -1,0 +1,1 @@
+C:\Users\amlange\Documents\connectthedots-master\Devices\DirectlyConnectedDevices\UWPMSBand\UWPMSBand\UWPMSBand.csproj;x64

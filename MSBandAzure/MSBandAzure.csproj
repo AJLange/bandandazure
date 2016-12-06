@@ -97,6 +97,7 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Assets\bandsplash.png" />
     <Content Include="Assets\icon.png" />
@@ -143,6 +144,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="BandHub.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

@@ -32,7 +32,7 @@ namespace MSBandAzure.Services
             var serviceNamespace = App.Settings.ServiceNamespace;
             var hubName = App.Settings.HubName;
 
-            var url = string.Format("{0}/publishers/{1}/messages", hubName, "dxband"/*deviceTelemetry.DeviceId*/);
+            var url = string.Format("{0}/publishers/{1}/messages", hubName, "IoTBand"/*deviceTelemetry.DeviceId*/);
             var uriBuilder = new UriBuilder();
             uriBuilder.Scheme = "https";
             uriBuilder.Host = string.Format("{0}.servicebus.windows.net/", serviceNamespace);

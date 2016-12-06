@@ -1,5 +1,5 @@
 ﻿{
-  "ServiceNamespace": "bandontherun-ns",
-  "HubName": "msbands",
-  "SasTokenUrl": "http://bandontherun.azurewebsites.net/api/getsastoken/dxband"
+  "ServiceNamespace": "bandservicebus-ns",
+  "HubName": "IoTBioBand",
+  "SasTokenUrl": "http://iotbandwebtest.azurewebsites.net/api/getsastoken/IoTBand"
 }

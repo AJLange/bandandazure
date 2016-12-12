@@ -48,7 +48,7 @@ namespace MSBandAzure.Services
             // Construct a uri to register this particular device with iot hub
             UriBuilder builder = new UriBuilder();
             builder.Scheme = "http";
-            builder.Host = "bandontherunwebapp.azurewebsites.net";
+            builder.Host = "iotbandwebtest.azurewebsites.net";
 
             //TODO: fix this hack
             deviceId = deviceId.Replace(' ', '-');
@@ -69,7 +69,7 @@ namespace MSBandAzure.Services
 
             try
             {
-                _iotHubClient = DeviceClient.Create("BandOnTheRunHub.azure-devices.net",
+                _iotHubClient = DeviceClient.Create("IoTBioband.azure-devices.net",
                     new DeviceAuthenticationWithRegistrySymmetricKey(deviceId, deviceToken), TransportType.Amqp);
             }
             catch (Exception ex)
